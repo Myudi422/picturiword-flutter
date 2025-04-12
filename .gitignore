@@ -1,0 +1,105 @@
+# Default dari Anda
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# --- Tambahan dan Pengorganisasian ---
+
+# Android related files (lebih spesifik)
+android/.gradle
+android/build/
+android/app/build/
+android/.idea
+android/.cxx
+android/.ndkVersion
+android/app/debug.keystore
+android/app/release.keystore
+android/local.properties
+
+# iOS related files (lebih spesifik)
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/build/
+ios/DerivedData/
+ios/.generated
+
+# Web related files (jika ada)
+web/build/
+
+# Linux related files (jika ada)
+linux/build/
+
+# Windows related files (jika ada)
+windows/build/
+
+# macOS related files (jika ada)
+macos/build/
+
+# Editor and IDE related (lebih lengkap)
+.idea/
+.vscode/
+*.iml
+*.iws
+*.userprefs
+
+# OS generated files (sudah ada, hanya penegasan)
+.DS_Store
+Thumbs.db
+
+# Packages (jika menggunakan monorepo)
+packages/*/build/
+packages/*/.dart_tool/
+
+# Generated files (umum)
+**/*.freezed.dart
+**/*.g.dart
+**/*.config.dart
+
+# Logs and temporary files (sudah ada)
+*.log
+tmp/
+temp/
+
+# Crash reports (jika menggunakan layanan seperti Firebase Crashlytics)
+crashlytics/
